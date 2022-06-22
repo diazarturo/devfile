@@ -25,7 +25,6 @@ objects:
         containers:
         - image: "${NODEJS_IMAGE}"
           command: ['tail', '-f', '/dev/null']
-          args: []
           name: web
           ports:
           - containerPort: 3000
